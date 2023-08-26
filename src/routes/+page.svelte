@@ -1,5 +1,6 @@
 <script>
     import "../app.css";
+	import Header from "../lib/header.svelte";
 	import Nav from "../lib/nav.svelte";
 	import Sidebar from "../lib/sidebar.svelte";
 
@@ -20,6 +21,7 @@
         </div>
     {/if}
     <Nav on:toggle={toggleSidebar}/>
+    <Header />
 </div>
 
 <style lang="postcss">
