@@ -1,8 +1,6 @@
 <script>
     import { createEventDispatcher } from 'svelte'
 	
-
-    
   const dispatch = createEventDispatcher()
 
   function toggle() {
@@ -21,5 +19,5 @@
             <li>Categories</li>
         </ul>
     </nav>
-    <img class="h-4" src="/images/icon-menu.svg" alt="menu" on:click={toggle}>
+    <input type="image" class="h-4" src="/images/icon-menu.svg" alt="menu" on:click={toggle}>
 </div>
