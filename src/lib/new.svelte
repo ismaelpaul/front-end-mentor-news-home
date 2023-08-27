@@ -2,7 +2,7 @@
     const containerClass = 'border-gunmetal border-b mb-[1.938rem]'
     const subHeadingClass = 'text-small-heading text-off-white cursor-pointer mb-2 hover:text-yellow'
 </script>
-<div class="bg-very-dark-blue mx-4 px-[1.313rem] py-6 mb-16 laptop:mb-0 laptop:mx-0">
+<div class="bg-very-dark-blue mx-4 px-[1.313rem] py-6 mb-16 laptop:mb-0 laptop:mx-0" role="contentinfo">
     <h1 class="text-medium-heading text-yellow mb-8">New</h1>
     <div class={containerClass}>
         <h2 class={subHeadingClass}>Hydrogen vs Electric Cars</h2>

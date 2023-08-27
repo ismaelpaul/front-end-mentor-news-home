@@ -21,7 +21,7 @@
     }]
 </script>
 
-<div class="flex flex-col gap-8 mx-4 mb-16 laptop:flex-row laptop:mx-0 laptop:col-span-3 laptop:row-span-1">
+<div class="flex flex-col gap-8 mx-4 mb-16 laptop:flex-row laptop:mx-0 laptop:col-span-3 laptop:row-span-1" role="contentinfo">
     {#each list as element }
         <Card element={element} />
     {/each}
