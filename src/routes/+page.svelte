@@ -1,5 +1,6 @@
 <script>
     import "../app.css";
+	import Cards from "../lib/cards.svelte";
 	import Header from "../lib/header.svelte";
 	import Nav from "../lib/nav.svelte";
 	import New from "../lib/new.svelte";
@@ -24,6 +25,7 @@
     <Nav on:toggle={toggleSidebar}/>
     <Header />
     <New />
+    <Cards />
 </div>
 
 <style lang="postcss">
