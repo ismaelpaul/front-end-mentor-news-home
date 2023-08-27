@@ -12,6 +12,9 @@ export default {
 			yellow: '#E9AA52',
 			'soft-orange': '#FFCE8A',
 		},
+		fontFamily: {
+			inter: ['Inter', 'sans-serif'],
+		},
 		fontSize: {
 			header: [
 				'2.6rem',
@@ -49,7 +52,7 @@ export default {
 				},
 			],
 			paragraph: [
-				'1rem',
+				'0.938rem',
 				{
 					lineHeight: '1.625rem',
 					fontWeight: '300',
