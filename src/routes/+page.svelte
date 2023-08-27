@@ -11,21 +11,31 @@
 
     export const toggleSidebar = () => {
     isSidebarOpen = !isSidebarOpen
+
+    if (isSidebarOpen) {
+      document.body.classList.add('overflow-hidden');
+    } else {
+      document.body.classList.remove('overflow-hidden');
+    }
 }
 </script>
-<div class="relative">
+
+<div>
 
     {#if isSidebarOpen}
-    <div class="flex flex-row-reverse w-[100vw] h-[100vh]">
+    <div class="flex flex-row-reverse w-[100vw] h-[100vh] absolute top-0">
         
             <Sidebar on:toggle={toggleSidebar} />
-            <div class="bg-dark-space-blue opacity-50 w-full h-full"></div>
+            <div class="bg-very-dark-blue opacity-50 w-full h-full"></div>
         </div>
     {/if}
     <Nav on:toggle={toggleSidebar}/>
-    <Header />
-    <New />
-    <Cards />
+    <div class="laptop:mx-[10.313rem] laptop: grid laptop:grid-cols-3 laptop:grid-row-3 laptop:gap-[1.875rem]">
+
+        <Header />
+        <New />
+        <Cards />
+    </div>
 </div>
 
 <style lang="postcss">
