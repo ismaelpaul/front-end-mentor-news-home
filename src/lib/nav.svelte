@@ -8,16 +8,16 @@
   }
 </script>
 
-<div class=" flex items-center justify-between mx-4 my-7">
-    <img class="h-7" src="/images/logo.svg" alt="logo" >
-    <nav class="hidden">
-        <ul>
-            <li>Home</li>
-            <li>New</li>
-            <li>Popular</li>
-            <li>Trending</li>
-            <li>Categories</li>
+<div class=" flex items-center justify-between mx-4 my-7 laptop:mx-[10.313rem] laptop:mt-[5.563rem] laptop:mb-[3.438rem]">
+    <img class="h-7 laptop:h-10" src="/images/logo.svg" alt="logo" >
+    <nav class="hidden laptop:flex">
+        <ul class="flex gap-10 text-nav cursor-pointer text-gunmetal">
+            <li class="hover:text-light-vermillion">Home</li>
+            <li class="hover:text-light-vermillion">New</li>
+            <li class="hover:text-light-vermillion">Popular</li>
+            <li class="hover:text-light-vermillion">Trending</li>
+            <li class="hover:text-light-vermillion">Categories</li>
         </ul>
     </nav>
-    <input type="image" class="h-4" src="/images/icon-menu.svg" alt="menu" on:click={toggle}>
+    <input type="image" class="h-4 laptop:hidden" src="/images/icon-menu.svg" alt="menu" on:click={toggle}>
 </div>
