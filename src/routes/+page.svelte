@@ -2,6 +2,7 @@
     import "../app.css";
 	import Header from "../lib/header.svelte";
 	import Nav from "../lib/nav.svelte";
+	import New from "../lib/new.svelte";
 	import Sidebar from "../lib/sidebar.svelte";
 
     let isSidebarOpen = false;
@@ -22,6 +23,7 @@
     {/if}
     <Nav on:toggle={toggleSidebar}/>
     <Header />
+    <New />
 </div>
 
 <style lang="postcss">
