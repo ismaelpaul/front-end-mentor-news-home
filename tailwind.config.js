@@ -9,7 +9,6 @@ export default {
 			'grayish-blue': '#C5C6CE',
 			gunmetal: '#5E607A',
 			'light-vermillion': '#F15D51',
-			silver: 'C5C6CE',
 			yellow: '#E9AA52',
 			'soft-orange': '#FFCE8A',
 		},
@@ -21,11 +20,52 @@ export default {
 					fontWeight: '800',
 				},
 			],
+			'x-large-heading': [
+				'3.5rem',
+				{
+					lineHeight: '3.5rem',
+					fontWeight: '800',
+				},
+			],
+			'medium-heading': [
+				'2rem',
+				{
+					lineHeight: '2rem',
+					fontWeight: '700',
+				},
+			],
+			'small-heading': [
+				'1.25rem',
+				{
+					lineHeight: '2rem',
+					fontWeight: '700',
+				},
+			],
+			'x-small-heading': [
+				'1.125rem',
+				{
+					lineHeight: '1.5rem',
+					fontWeight: '800',
+				},
+			],
 			paragraph: [
 				'1rem',
 				{
 					lineHeight: '1.625rem',
 					fontWeight: '300',
+				},
+			],
+			nav: [
+				'0.938rem',
+				{
+					lineHeight: '1.625rem',
+				},
+			],
+			'sidebar-nav': [
+				'1.125rem',
+				{
+					lineHeight: '1.5rem',
+					fontWeight: '400',
 				},
 			],
 			button: [
@@ -35,6 +75,9 @@ export default {
 					fontWeight: '600',
 				},
 			],
+		},
+		screens: {
+			laptop: '1440px',
 		},
 		extend: {},
 	},
