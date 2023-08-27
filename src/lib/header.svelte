@@ -1,4 +1,4 @@
-<header class="mx-4 flex flex-col gap-8">
+<header class="mx-4 flex flex-col gap-8 mb-16">
     <img src="images/image-web-3-mobile.jpg" alt="header">
     <div class="flex flex-col gap-4">
         <h1 class="text-header text-very-dark-blue">The Bright Future of Web 3.0?</h1>
